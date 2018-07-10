@@ -69,6 +69,8 @@ public class Main {
                 LOGGER.error(mme.getMessage());
             }
             System.exit(EXIT_CODE_ERR);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
